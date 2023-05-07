@@ -1,0 +1,38 @@
+.topper{
+    height: 70vh;
+    background-image: url("https://img.freepik.com/premium-photo/dedicated-man-being-productive-his-office_386185-756.jpg?w=826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .topper-head{
+    height: 70vh;
+    background: rgba(104,97,206, 0.5);
+    padding: 15% 7%;
+  }
+
+  .p-thead{
+    text-align: center;
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #fff;
+  }
+  .a-s{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 5% 0;
+  }
+  
+  .a-s i{
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 10px;
+  }
+  .home, .featuress{
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+  }
