@@ -36,3 +36,16 @@
     font-size: 20px;
     line-height: 24px;
   }
+
+  .section-quote{
+    margin: 10% 0;
+    background-image: url("https://img.freepik.com/free-photo/front-view-woman-talking-phone_23-2148427169.jpg?w=826&t=st=1683482160~exp=1683482760~hmac=01488ac0203b28a072ce8ac360179ec91793e865b2149d2f998aa7849c5cb451");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .quote-head{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10% 7%;
+  }
