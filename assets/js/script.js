@@ -62,7 +62,7 @@ keyFacts.forEach((keyFact) => {
 // text animation 
 
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "The Future of Voting", "The Remote election management and voting solution", "A Green Voting solution", "Free, fair, credible, secure, verifiable, non-rigged, and fast remote voting solution", "Convinient voting solution", "Security at its peek"];
+  var dataText = ["The Quickest Click to Cast Your Vote!", "The Future of Voting", "The Remote election management and voting solution", "A Green Voting solution", "Free, fair, credible, secure, verifiable, non-rigged, and fast remote voting solution", "Convinient voting solution", "Security at its peek"];
   
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {

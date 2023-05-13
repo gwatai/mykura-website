@@ -978,7 +978,7 @@ body,html{
 .card-1{
   background-color: #eef9ff;
   padding: 10%;
-  height: 85vh;
+  height: 65vh;
 }
 
 .icon{
@@ -1064,7 +1064,7 @@ body,html{
   .card-1{
     background-color: #eef9ff;
     padding: 10%;
-    height: 85vh;
+    height: 65vh;
   }
 }
 
@@ -1701,7 +1701,7 @@ a {
 }
 
 .testim .arrow:hover {
-  color: green;
+  color: #0367a6;
 }
   
 
@@ -1730,7 +1730,7 @@ a {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid green;
+  border: 1px solid #0367a6;
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all .5s ease-in-out;    
@@ -1743,8 +1743,8 @@ a {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: green;
-  border-color: green;
+  background: #0367a6;
+  border-color: #0367a6;
 }
 
 .testim .dots .dot.active {
@@ -1793,7 +1793,7 @@ a {
 }
 
 .testim .contt div h2 {
-  color: green;
+  color: #0367a6;
   font-size: 24px;
   line-height: 28.8px;
   margin: 15px 0;
@@ -1847,6 +1847,9 @@ a {
   -ms-animation: testim-content-out .4s ease-in-out forwards;        
   -o-animation: testim-content-out .4s ease-in-out forwards;        
   animation: testim-content-out .4s ease-in-out forwards;        
+}
+.amore{
+  margin-left: 30%;
 }
 
 .testim .contt div.inactive p {
