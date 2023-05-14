@@ -8,7 +8,7 @@
 
   .topper-head{
     height: 70vh;
-    background: rgba(104,97,206, 0.5);
+    background: rgb(3,103,166, .5);
     padding: 15% 7%;
   }
 
@@ -48,4 +48,128 @@
   .quote-head{
     background: rgba(0, 0, 0, 0.5);
     padding: 10% 7%;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .topper{
+      height: 40vh;
+      background-image: url("https://img.freepik.com/premium-photo/dedicated-man-being-productive-his-office_386185-756.jpg?w=826");
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+    }
+  
+    .topper-head{
+      height: 40vh;
+      background: rgb(3,103,166, .5);
+      padding: 15% 7%;
+    }
+
+    .p-thead{
+      text-align: center;
+      font-size: 26px;
+      line-height: 37.2px;
+      color: #fff;
+      margin-top: 20%;
+    }
+
+    .a-s{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 5% 0;
+    }
+    
+    .a-s i{
+      color: #fff;
+      font-size: 16px;
+      line-height: 16px;
+      margin: 0 10px;
+    }
+    .home, .featuress{
+      color: #fff;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  /* contact */
+  .contact{
+    display: flex;
+    width: 100%;
+    padding: 10% 7%;
+    gap: 20px;
+  }
+
+  .contact-head{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #0367a6;
+  }
+
+  .form{
+    width: 50%;
+  }
+
+  .map{
+    width: 50%;
+  }
+
+  .col{
+    margin: 1% 0;
+  }
+
+  .form-control{
+    background-color: #eef9ff;
+    border: none;
+    padding: 8% 10%;
+  }
+
+  .col-sub{
+    background-color: #0367a6;
+    text-align: center;
+    padding: 4% 0;
+    margin: 1% 2%;
+  }
+
+  button{
+    background-color: none;
+  }
+
+  .submit{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .contact{
+      display: block;
+      width: 100%;
+      padding: 10% 7%;
+      gap: 20px;
+    }
+  
+    .contact-head{
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      font-weight: 700;
+      color: #0367a6;
+    }
+  
+    .form{
+      width: 100%;
+      margin: 10% 0;
+    }
+  
+    .map{
+      width: 100%;
+    }
+    .map iframe{
+      width: 100%;
+    }
   }
