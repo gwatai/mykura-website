@@ -9,8 +9,7 @@
   <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -19,12 +18,56 @@
 
 <body>
   <div class="container-full">
-    <div class="nav">
+    <div class="toppper" id="navbar1">
+      <div class="nav-top">
+        <div class="eas">
+          <p class="location"><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p>
+          <a href="tel:+254795398841" class="phone"><i class="fa-sharp fa-solid fa-phone"></i> +254795398841</a>
+          <a href="mailto:mykura@myvotemykura.com" class="email" target="_blank"><i class="fa-solid fa-envelope"></i> mykura@myvotemykura.com</a>
+        </div>
+        <div class="wes">
+          <a href="https://twitter.com/myvotemykura/" class="twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/myvotemykura/" class="insta" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <a href="./index.html" class="nav-title">
+            <img src="./assets/images/MyKura_Green_logo-removebg-preview.png" alt="">
+          </a>
+        </div>
+        <div class="nav-header2">
+          <p class="nav-head">My-Kura</p>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+  
+        <div class="nav-links">
+          <a href="./index.html" >Home</a>
+          <a href="./features.html" >Features</a>
+          <a href="./pricing.html" >Pricing</a>
+          <a href="#" >Clients</a>
+          <a href="./contact.html" >Contact</a>
+          <a href="#" class="btn btn-brochure"> Download Brochure </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav nav-hide" id="navbar2">
       <input type="checkbox" id="nav-check">
       <div class="nav-header">
         <a href="./index.html" class="nav-title">
           <img src="./assets/images/MyKura_Green_logo-removebg-preview.png" alt="">
         </a>
+      </div>
+      <div class="nav-header2">
+        <p class="nav-head">My-Kura</p>
       </div>
       <div class="nav-btn">
         <label for="nav-check">
@@ -39,10 +82,12 @@
         <a href="./features.html" >Features</a>
         <a href="./pricing.html" >Pricing</a>
         <a href="#" >Clients</a>
-        <a href="#" >Re-Sell</a>
+        <a href="#" >
+          Contact</a>
         <a href="#" class="btn btn-brochure"> Download Brochure </a>
       </div>
     </div>
+
     <div class="topper">
         <div class="topper-head">
             <p class="p-thead">Pricing Charter</p>
@@ -60,7 +105,7 @@
         <hr class="hr">
         
         <section class="grid-container price-tables">
-          <div class="grid-x grid-margin-x grid-margin-y" >
+          <div class="grid-x price grid-margin-x grid-margin-y" >
             <div class="cell large-4 medium-12 small-12">
               <div class="pricing-table">
                 <header class="pricing-header">
@@ -74,27 +119,36 @@
               </header>
               <section class="pricing-content">
                 <ul>
-                  <li class="bullet-item"><i class="fa fa-check available"></i> 20 GB of cloud storage</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i> web-vote</li>
                   <li class="bullet-item">
-                    <i class="fa fa-check available"></i>Get access from 3 devices
+                    <i class="fa fa-check available"></i>USSD voting - Post-paid dedicated code for Safaricom only
                   </li>
                   <li class="bullet-item">
-                    <i class="fa fa-check available"></i>Share your files with up to 5 people
+                    <i class="fa fa-check available"></i>domain
                   </li>
                   <li class="bullet-item">
-                    <i class="fa fa-check available"></i>Easy to setup, easier to use.
+                    <i class="fa fa-check available"></i>Google or Institutional Authenticator Integration
+                  </li>
+                  <li class="bullet-item">
+                    <i class="fa fa-check available"></i>VVPAT(with email integration)
+                  </li>
+                  <li class="bullet-item">
+                    <i class="fa fa-check available"></i>Updates, Training, maintenance & tech support
+                  </li>
+                  <li class="bullet-item">
+                    <i class="fa fa-check available"></i>admin portal
                   </li>
                 </ul>
               </section>
-                 <button type="button" class="clear button button--free">Sing up free</button>
+                 <a href="./contact.html" class="clear button button--free">Order Now</a>
             </div>
              </div>
             <div class="cell large-4 medium-12 small-12">
               <div class="pricing-table">
-                <header class="pricing-header">
+                <header class="pricing-header-plus">
                   <span data-tooltip class="top" tabindex="2" title="Free Basic Information."><i class="fas fa-info-circle"></i>
                   </span>
-                  <a href="#"><p>Basic</p></a>
+                  <a href="#"><p>Silver</p></a>
                   <div class="price-box">
                     <p class="title"><sup>Kes</sup>--/</p>
                     <p>Election</p>
@@ -102,21 +156,23 @@
               </header>
               <section class="pricing-content-plus">
                 <ul>
-                  <li class="bullet-item"><i class="fa fa-check available"></i> Includes everthing from <a href="#"class="pricingh-basic">Basic</a>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>200 GB of cloud storage</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Get access from all your devices</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Unlimited file and folder sharing</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Priority support</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>web-vote</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>USSD-voting -Pre-Paid Shared Code-All Telcos</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>domain</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>Google or institutional authenticator Integration</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>VVPAT(with email & sms integration)</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>Updates, Training, maintenance & tech support</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>admin portal</li>
                 </ul>
-                 <button type="button" class="button button--plus">Upgrade now</button>
+                 <a href="./contact.html" class="button button--plus">Order Now</a>
             </div>
             </div>
             <div class="cell large-4 medium-12 small-12">
               <div class="pricing-table">
-                <header class="pricing-header">
+                <header class="pricing-header-premium">
                   <span data-tooltip class="top" tabindex="2" title="Free Basic Information."><i class="fas fa-info-circle"></i>
                   </span>
-                  <a href="#"><p>Basic</p></a>
+                  <a href="#"><p>Platinum</p></a>
                   <div class="price-box">
                     <p class="title"><sup>Kes</sup>--/</p>
                     <p>Election</p>
@@ -124,13 +180,15 @@
               </header>
               <div class="pricing-content-premium">
                 <ul>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Includes everthing from  <a href="#" class="pricingh-plus">Plus</a> </li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>2 TB of cloud storage</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Live collaboration with up to 25 people</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Super fast upload and download</li>
-                  <li class="bullet-item"><i class="fa fa-check available"></i>Finder extension for your Mac</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>web-vote</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>USSD-voting -Pre-Paid Dedicated Code-All Telcos</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>domain</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>Google or institutional authenticator Integration</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>VVPAT(with email & sms integration)</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>Updates, Training, maintenance & tech support</li>
+                  <li class="bullet-item"><i class="fa fa-check available"></i>admin portal</li>
                 </ul>
-              <button type="button" class="button button--premium">Go Premium</button>
+              <a href="./contact.html"  class="button button--premium">Order Now</a>
               </div>
             </div>
              </div>
@@ -138,30 +196,62 @@
        </div>
 
     <div class="section-quote">
-        <div class="quote-head">
+        <div class="quote-headd">
             <div class="righttt">
                 <p class="head-one">REQUEST A QUOTE</p>
-                <p class="head-two">Need A Quote? Please Contact Us</p>
+                <p class="head-two two">Need A Quote? Please Contact Us</p>
                 <hr id="hr">
-                <div class="east">
-                    <p class="east-p">Reply within 24 hours</p>
+                <div class="calls">
+                  <div class="east">
+                      <i class="fa-solid fa-phone"></i>
+                      <p class="east-p">Reply within 24 hours</p>
+                  </div>
+                  <div class="west">
+                      <i class="fa-solid fa-phone"></i>
+                      <p class="west-p">24 hrs telephone support</p>
+                  </div>
                 </div>
-                <div class="west">
-                    <i class="fa-solid fa-phone"></i>
-                    <p class="west-p">24 hrs telephone support</p>
+                <div class="support">
+                  <div class="east">
+                    <div class="est">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="wess">
+                      <p class="call-us">Call us on</p> 
+                      <a href="tel:+254795398841" class="phone-call">+254795398841</a>
+                    </div>
+                  </div>
+                  <div class="west">
+                    <div class="est">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="wess">
+                      <p class="call-us">Mail us on</p> 
+                      <a href="mailto:mykura@myvotemykura.com" class="phcallone-">mykura@myvotemykura.com</a>
+                    </div>
+                  </div>
                 </div>
             </div>
             <div class="lefttt">
-                <form>
+                <form  method="post">
                     <div class="row g-3">
                         <div class="col-12">
-                          <input type="text" class="form-control" placeholder="City" aria-label="City">
+                          <input type="text" class="form-control control" id="fullname" placeholder="Your Name" aria-label="Your Name">
                         </div>
                         <div class="col-12">
-                          <input type="text" class="form-control" placeholder="State" aria-label="State">
+                          <input type="text" class="form-control control" id="email" placeholder="Your Email" aria-label="Your Email">
                         </div>
                         <div class="col-12">
-                          <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                          <input type="text" class="form-control control" id="phone" placeholder="Your Phone" aria-label="Your Phone">
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control control" id="subject" placeholder="Subject" aria-label="Subject">
+                        </div>
+                        <div class="col-12">
+                          <textarea class="form-control control" id="message" placeholder="Message" aria-label="message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+                        <div class="col-12 request">
+                          <a href="#" type="button" onclick="whatsapp()" class="form-control submit">Request A Quote</a>
                         </div>
                     </div>
                 </form>
@@ -182,11 +272,11 @@
                   <ul class="contact-details">
                     <li>
                       <span class="icon-earphones"></span> Call Us:
-                      <a href="tel:+254707367650">+254707367650</a>
+                      <a href="tel:+254795398841">+254795398841</a>
                     </li>
                     <li>
                       <span class="icon-envelope-open"></span>
-                      <a href="mailto:support@my-kura.com">support@my-kura.com</a>
+                      <a href="mailto:mykura@myvotemykura.com">mykura@myvotemykura.com</a>
                     </li>
                   </ul>
                 </div>

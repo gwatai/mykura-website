@@ -38,7 +38,7 @@
   }
 
   .section-quote{
-    margin: 10% 0;
+    margin-top: 10%;
     background-image: url("https://img.freepik.com/free-photo/front-view-woman-talking-phone_23-2148427169.jpg?w=826&t=st=1683482160~exp=1683482760~hmac=01488ac0203b28a072ce8ac360179ec91793e865b2149d2f998aa7849c5cb451");
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,4 +172,196 @@
     .map iframe{
       width: 100%;
     }
+  }
+
+  /* pricing request quote  */
+  .pricing-content-premium ul li{
+    text-transform: capitalize;
+  }
+  .quote-headd{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10% 7%;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  .righttt{
+    width: 50%;
+    margin-top: 4%;
+  }
+  .lefttt{
+    margin-left: 10%;
+    width: 40%;
+    background-color: #0367a6;
+    padding: 50px;
+  }
+
+  .control{
+    padding: 4% 10%;
+  }
+
+  .two{
+    color: #fff;
+  }
+ 
+  .submit{
+    text-align: center;
+    padding: 3% 10%;
+    background-color: #091e3e;
+  }
+
+  .calls{
+    display: flex;
+    width: 100%;
+    margin: 5% 0;
+  }
+  .east{
+    width: 50%;
+    display: flex;
+  }
+
+  .east i{
+    width: 10%;
+    color: #0367a6;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .east p{
+    width: 90%;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .west{
+    width: 50%;
+    display: flex;
+  }
+
+  .west i{
+    width: 10%;
+    color: #0367a6;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .west p{
+    width: 90%;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .support{
+    display: flex;
+    width: 100%;
+    margin: 5% 0;
+    gap: 20px;
+  }
+
+  .est{
+    background-color: #0367a6;
+    padding: 20px;
+  }
+
+  .est i{
+    color: #fff;
+  }
+
+  .wess{
+    margin-left: 5%;
+  }
+
+  .call-us{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .phone-call{
+    font-size: 20px;
+    line-height: 24px;
+    color: #0367a6;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .quote-headd{
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10% 7%;
+      display: block;
+      width: 100%;
+      gap: 20px;
+    }
+    .righttt{
+      width: 100%;
+      margin-top: 4%;
+    }
+    .lefttt{
+      margin-left: 0;
+      width: 100%;
+      background-color: #0367a6;
+      padding: 50px;
+    }
+    .calls{
+      display: block;
+      width: 100%;
+      margin: 5% 0;
+    }
+    .east{
+      width: 100%;
+      display: flex;
+      margin-top: 10%;
+    }
+  
+    .east i{
+      width: 10%;
+      color: #0367a6;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .east p{
+      width: 90%;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .west{
+      width: 100%;
+      display: flex;
+      margin-top: 10%;
+    }
+  
+    .west i{
+      width: 10%;
+      color: #0367a6;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .west p{
+      width: 90%;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    
+  .support{
+    display: block;
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  .est{
+    background-color: #0367a6;
+    padding: 20px;
+  }
+  .est i{
+    color: #fff;
+  }
+  .phone-call{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0367a6 !important;
+  }
   }
