@@ -365,3 +365,35 @@
     color: #0367a6 !important;
   }
   }
+
+/* clients */
+.imageth{
+  display: block;
+  margin: 5% 10%;
+}
+
+.up, .down{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.down{
+  margin-top: 5%;
+}
+
+.once .p-name{
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.once{
+  width: 33%;
+}
+
+.once img{
+  width: 100%;
+  height: 40%;
+}
