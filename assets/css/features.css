@@ -365,3 +365,50 @@
     color: #0367a6 !important;
   }
   }
+
+/* clients */
+.imageth{
+  display: block;
+  margin: 5% 10%;
+}
+
+.up, .down{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.down{
+  margin-top: 5%;
+}
+
+.once .p-name{
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.once{
+  width: 280px;
+  height: 20vh;
+}
+
+.once img{
+  margin: 0 20px;
+  width: 80%;
+  height: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+  .up, .down {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (100px);
+    grid-template-columns: repeat(1, 100px);
+    grid-gap: 30px;
+  } 
+  .once{
+    margin: 10px 0;
+  }
+}
