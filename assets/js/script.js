@@ -208,7 +208,7 @@ function whatsapp(){
   var Subject = document.getElementById("subject").value;
   var Message = document.getElementById("message").value;
 
-  var url = "https://wa.me/254795398841?text="
+  var url = "https://wa.me/254100644779?text="
   +"* FullName : * " + FullName + "%0a"
   +"* Email : * " + Email + "%0a"
   +"* Phone : * " + Phone + "%0a"
